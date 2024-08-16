@@ -32,7 +32,7 @@ PRIORITY_EMOJIS = {"High": "🔴", "Medium": "🟠", "Low": "🟢"}
 def load_data():
     if os.path.exists(DATA_FILE):
         try:
-            with open(DATA_FILE, "r") as f:
+            with open(DATA_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
             for report in data.get("reports", []):
                 if isinstance(report["date"], str):
@@ -65,7 +65,7 @@ def load_data():
 
 # Function to save data
 def save_data(data):
-    with open(DATA_FILE, "w") as f:
+    with open(DATA_FILE, "w",encoding="utf-8") as f:
         data_to_save = data.copy()
         for report in data_to_save.get("reports", []):
             if isinstance(report["date"], datetime):
@@ -209,9 +209,9 @@ if st.session_state.page == "Home 🏠":
     st.write(
         """
     I created this Thesis Manager/Tracker for two main reasons:
-    1. **Productive Procrastination**: Let's face it, sometimes we need a break from actual thesis writing. 
+    1. **Productive Procrastination**: Let's face it, sometimes we need a break from actual thesis writing.
        What better way to procrastinate than by building a tool to manage your thesis? 😉
-    2. **Genuine Productivity Boost**: Despite its origins, this app has become an invaluable tool for managing 
+    2. **Genuine Productivity Boost**: Despite its origins, this app has become an invaluable tool for managing
        my thesis progress, keeping track of tasks, and maintaining focus during work sessions.
     """
     )
@@ -243,7 +243,7 @@ if st.session_state.page == "Home 🏠":
     st.subheader("About the Developer")
     st.write(
         """
-    This app was developed by [Your Name] as a side project while working on a thesis in [Your Field].
+    This app was developed by myself as a side project while working on my thesis.
     If you're interested in the code or want to contribute, check out the project on GitHub:
     """
     )
