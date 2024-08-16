@@ -123,7 +123,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("📚 Thesis Manager/Tracker 🎓")
+st.title("📚 Thesis Tracker 🎓")
 
 # Sidebar navigation
 pages = [
@@ -203,12 +203,12 @@ if "page" not in st.session_state:
     st.session_state.page = "Home 🏠"
 
 if st.session_state.page == "Home 🏠":
-    st.header("Welcome to the Thesis Manager/Tracker 🎓")
+    st.header("Welcome to your academic buddy! 🎓")
 
     st.subheader("Why This App Exists")
     st.write(
         """
-    I created this Thesis Manager/Tracker for two main reasons:
+    I created this Thesis Tracker for two main reasons:
     1. **Productive Procrastination**: Let's face it, sometimes we need a break from actual thesis writing.
        What better way to procrastinate than by building a tool to manage your thesis? 😉
     2. **Genuine Productivity Boost**: Despite its origins, this app has become an invaluable tool for managing
