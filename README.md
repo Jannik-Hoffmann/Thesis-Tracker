@@ -48,7 +48,7 @@ This project is licensed under the MIT License.
 
 ## Author 👨‍💻
 Jannik Hoffmann
-[LinkedIn: Jannik Hoffmann](https://www.linkedin.com/in/jannik-hoffmann/)
+[LinkedIn: Jannik Hoffmann](https://www.linkedin.com/in/jannik-marian-hoffmann-9b58b3177/)
 
 ## Show your support ⭐️
 If this project helped you, please give it a star!
