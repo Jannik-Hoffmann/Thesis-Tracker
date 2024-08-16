@@ -243,11 +243,11 @@ if st.session_state.page == "Home 🏠":
     st.subheader("About the Developer")
     st.write(
         """
-    This app was developed by myself as a side project while working on my thesis.
+    This app was developed by [myself](https://github.com/Jannik-Hoffmann) as a side project while working on my thesis.
     If you're interested in the code or want to contribute, check out the project on GitHub:
     """
     )
-    st.markdown("[GitHub Repository](https://github.com/yourusername/thesis-manager)")
+    st.markdown("[GitHub Repository](https://github.com/Jannik-Hoffmann/Thesis-Tracker/)")
 
     st.subheader("Feedback and Contributions")
     st.write(
