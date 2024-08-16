@@ -1,0 +1,110 @@
+{
+    "progress": {
+        "Introduction": 20,
+        "Literature Review": 40,
+        "Methodology": 30,
+        "Results": 10,
+        "Discussion": 5,
+        "Conclusion": 0
+    },
+    "reports": [
+        {
+            "date": "2024-08-10T14:30:00",
+            "category": "Literature Review",
+            "task": "Read Smith et al. (2023)",
+            "time_spent": 2.5,
+            "result_rating": 4,
+            "focus_rating": 3,
+            "note": "Good insights on methodology"
+        },
+        {
+            "date": "2024-08-12T10:15:00",
+            "category": "Methodology",
+            "task": "Draft survey questions",
+            "time_spent": 1.5,
+            "result_rating": 5,
+            "focus_rating": 4,
+            "note": "Completed first draft of survey"
+        }
+    ],
+    "categories": [
+        "Introduction",
+        "Literature Review",
+        "Methodology",
+        "Results",
+        "Discussion",
+        "Conclusion",
+        "Writing",
+        "Research",
+        "Data Analysis",
+        "Meetings"
+    ],
+    "tasks": [
+        "Read Smith et al. (2023)",
+        "Draft survey questions",
+        "Analyze preliminary data",
+        "Write introduction"
+    ],
+    "todo": [
+        {
+            "name": "Analyze preliminary data",
+            "category": "Data Analysis",
+            "priority": "High",
+            "due_date": "2024-08-20",
+            "estimated_time": 5,
+            "steps": [
+                {
+                    "step": "Clean data",
+                    "completed": false
+                },
+                {
+                    "step": "Run statistical tests",
+                    "completed": false
+                },
+                {
+                    "step": "Create visualizations",
+                    "completed": false
+                }
+            ],
+            "tags": [
+                "Important",
+                "Urgent"
+            ],
+            "completed": false,
+            "actual_time": 0,
+            "notes": ""
+        },
+        {
+            "name": "Write introduction",
+            "category": "Writing",
+            "priority": "Medium",
+            "due_date": "2024-08-25",
+            "estimated_time": 3,
+            "steps": [
+                {
+                    "step": "Outline main points",
+                    "completed": true
+                },
+                {
+                    "step": "Write first draft",
+                    "completed": false
+                },
+                {
+                    "step": "Revise and edit",
+                    "completed": false
+                }
+            ],
+            "tags": [
+                "Important"
+            ],
+            "completed": false,
+            "actual_time": 1,
+            "notes": "Remember to include research questions"
+        }
+    ],
+    "tags": [
+        "Important",
+        "Urgent",
+        "Long-term"
+    ]
+}
