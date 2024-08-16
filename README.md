@@ -1,5 +1,6 @@
 # Thesis Manager/Tracker 🎓
-![App Screenshot]()
+![App Screenshot](![image](https://github.com/user-attachments/assets/93fe9756-0637-47d2-8d8f-42cf7d7ea768)
+)
 ## About 📚
 The **Thesis Manager/Tracker** is a Streamlit-based web application designed to help thesis writers manage their tasks, track progress, and maintain productivity. Born out of a combination of procrastination and a genuine need for a thesis management tool, this app makes it easier to stay on top of your work and achieve your goals.
 
