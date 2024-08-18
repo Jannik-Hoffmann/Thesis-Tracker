@@ -46,18 +46,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## License 📄
 This project is licensed under the MIT License.
 
-## Author 👨‍💻
-Jannik Hoffmann
-[LinkedIn: Jannik Hoffmann](https://www.linkedin.com/in/jannik-marian-hoffmann-9b58b3177/)
-
-## Show your support ⭐️
-If this project helped you, please give it a star!
 
 ## Acknowledgments 🙌
 - Inspired by my need to sometimes overthink planning and wanting my own implementation for the tracking.
 - Built with [Streamlit](https://streamlit.io/).
-
----
-
-### Suggestion 💡
-If you have a screenshot of the app, consider adding it here to give users a visual preview of the Thesis Manager/Tracker in action. This can be done by including an image in the README like so:
